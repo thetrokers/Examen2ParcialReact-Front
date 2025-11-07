@@ -4,7 +4,7 @@ export default function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center text-center vh-100 bg-light">
+    <div className="text-center vh-100  bg-light container-md-fluid d-flex flex-column justify-content-center align-items-center">
       <h1 className="fw-bold display-5 mb-4 text-primary">
         Congreso de Tecnologías de la Información
       </h1>

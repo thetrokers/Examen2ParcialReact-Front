@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <div
-        className="d-flex w-100 vh-100 bg-light"
+        className=""
         style={{
           backgroundImage: "url('/bg.svg')",
           backgroundSize: "cover",
