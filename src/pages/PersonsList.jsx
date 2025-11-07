@@ -31,7 +31,7 @@ function ListItem({ data }) {
           <p className="text-muted">{data.job}</p>
           <button
             className="btn btn-outline-primary btn-sm"
-            onClick={() => navigation(`/index/gafete/${data.id}`)}
+            onClick={() => navigation(`/gafete/${data.id}`)}
           >
             Ver Gafete
           </button>

@@ -11,7 +11,7 @@ export default function PearsonsPage() {
 
   const getUsers = () => {
     axios
-      .get("https://congresoticsserver.onrender.com/users")
+      .get("https://examen2parcialback.onrender.com/users")
       .then((response) => {
         if (response.status === 200) setList(response.data);
       })
@@ -36,7 +36,7 @@ export default function PearsonsPage() {
           <h2 className="fw-bold text-primary">Asistentes Registrados</h2>
           <button
             className="btn btn-success"
-            onClick={() => navigate("/index/registro")}
+            onClick={() => navigate("/registro")}
           >
             + Nuevo Registro
           </button>

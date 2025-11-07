@@ -6,7 +6,7 @@ export default function MainPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/index/participantes");
+    navigate("/participantes");
   }, []);
 
   return (
@@ -17,7 +17,7 @@ export default function MainPage() {
           <Outlet />
         </main>
         <footer className="text-center py-3 bg-primary text-white mt-auto">
-          Congreso TIC’s © Universidad Tecnológica de León
+          Congreso TIC’s Universidad Tecnológica de León
         </footer>
       </div>
     </>

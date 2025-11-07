@@ -14,9 +14,9 @@ export default function Form() {
   const navigate = useNavigate();
 
   const avatarItems = [
-    "https://img.daisyui.com/images/profile/demo/superperson@192.webp",
-    "https://img.daisyui.com/images/profile/demo/yellingcat@192.webp",
-    "https://img.daisyui.com/images/profile/demo/distracted1@192.webp",
+    "https://cdn-icons-png.flaticon.com/128/3135/3135715.png",
+    "https://cdn-icons-png.flaticon.com/128/4140/4140047.png",
+    "https://cdn-icons-png.flaticon.com/128/4202/4202837.png",
   ];
 
   const createNew = () => {
@@ -29,7 +29,7 @@ export default function Form() {
       avatarItems[avatar]
     );
     axios
-      .post("https://congresoticsserver.onrender.com/users", user)
+      .post("https://examen2parcialback.onrender.com/users", user)
       .then((res) => {
         if (res.status === 201) {
           alert("Participante registrado exitosamente");

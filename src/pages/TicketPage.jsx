@@ -9,7 +9,7 @@ export default function TicketScreen() {
 
   const getUser = () => {
     axios
-      .get(`https://congresoticsserver.onrender.com/users/${id}`)
+      .get(`https://examen2parcialback.onrender.com/users/${id}`)
       .then((response) => {
         if (response.status === 200) {
           setSelectedUser(response.data);
